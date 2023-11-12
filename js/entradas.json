@@ -14,13 +14,11 @@
     { "titulo":"recitales",
         "nombre": "La Renga",
         "estadio": "Estadio Obras",
-        "thumbnail" : "https://i.pinimg.com/originals/18/75/71/18757156096a6765f86a8ea84d3227d3.jpg",
         "precio" : 70283
     },
     {"titulo":"recitales",
         "nombre": "Ciro",
         "estadio": "Estadio Obras",
-        "thumbnail": "https://i.pinimg.com/originals/88/92/3d/88923d98e4349ae924b3968483a16147.png" ,
         "precio" : 71345
     }
     ]

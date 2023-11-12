@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sectionEntradas = document.querySelector('#entradas');
     const detalleCompraElement = document.getElementById("detalleCompra");
     function getData() {
-        fetch('../js/entradas.json')
+        fetch('js/entradas.json')
         .then(res => {
             if (!res.ok) {
             throw new Error('Hubo un problema al obtener los datos');

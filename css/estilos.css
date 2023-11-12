@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    color: yellow;
+} 
+
+body {
+    background-image: url("../imagenes/fondopagine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+h1{
+    background-color: rgb(0, 0, 0);
+    font-family:'Rock Salt', cursive;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+.parrafo1{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Inter', cursive;
+    font-weight: bolder;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: 10px;
+} 
+
+.pasos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.pasos li {
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem 10px;
+}
+
+.Root {
+    width: 100%;
+    height: 100%;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    margin:25px;
+}
+
+button{
+    background-color: #000000;
+    border-radius: 10%;
+    height: 5rem;
+    width: 10.5rem;
+    margin: 3rem;
+    font-size: 20px;       
+} 
+
+button:active {
+    color: #000000;
+    background-color: grey
+}
+
+.formadepagoyretiro {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .formadepagoyretiro h2 {
+    font-size: 20px;
+    margin: 10px;
+    }
+
+    .formadepagoyretiro select {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.detalleCompra {
+    display: flex;
+    align-items: center;
+    margin: 10rem;
+    padding: 5rem;
+
+
+}
+
+input#cantidadEntradas{
+    color: #000000;
+    font-weight: bolder;
+}
+
+#detalleCompra {
+    align-content: space-evenly;
+    justify-content: center;
+    font-size: 16px;
+    margin: 5rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt';
+
+}
+
+botones {
+    background-color: #000000;
+    color: yellow;
+    font-size: 16px;
+    }
+
+
+.confirmarCompraButton{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+#confirmarCompraButton {
+
+    background-color: #000000;
+    border-radius: 10%;
+    height: 5rem;
+    width: 10.5rem;
+    font-size: 20px; 
+}
+
+h2{
+    
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    justify-content: center;
+    text-decoration: underline;
+
+}
